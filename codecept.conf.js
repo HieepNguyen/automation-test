@@ -17,7 +17,7 @@ exports.config = {
 		Puppeteer: {
 			url: "https://opensource-demo.orangehrmlive.com/web/index.php",
 			show: true,
-			// windowSize: "1200x900",
+			windowSize: "1366x768",
 			chrome: {
 				arg: ["--start-fullscreen"],
 			},
